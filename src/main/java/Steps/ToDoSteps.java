@@ -21,7 +21,7 @@ public class ToDoSteps extends TestRunner {
     public void user_already_on_home_page() {
         System.out.println(driver.getCapabilities());
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get("https://lambdatest.github.io/sample-todo-app/");
+        driver.get("https://ltqa-frontend.lambdatestinternal.com/sample-todo-app/");
     }
 
     @When("^select First Item$")
