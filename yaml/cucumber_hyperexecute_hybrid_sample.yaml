@@ -7,8 +7,8 @@ runson: ${matrix.os}
 retryOnFailure: false
 autosplit: true
 maxRetries: 1
-parallelism: 2
-concurrency: 2
+parallelism: 3
+concurrency: 10
 
 runtime:
   language: java

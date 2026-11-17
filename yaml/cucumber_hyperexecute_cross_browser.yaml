@@ -1,0 +1,63 @@
+---
+# Runs every Cucumber scenario on the latest versions of:
+#   macOS Tahoe - Safari | Windows 11 - Chrome | Windows 11 - Firefox | Linux - Chrome
+# Browser/OS pairs are defined in xml/cucumber_cross_browser.xml (selected via -Dplatname=cross_browser).
+# The HyperExecute VM below only runs Maven; the browsers run on the TestMu AI (LambdaTest) Selenium grid.
+version: 0.1
+globalTimeout: 150
+testSuiteTimeout: 150
+testSuiteStep: 150
+
+runson: linux
+
+runtime:
+  language: java
+  version: 21
+
+autosplit: true
+retryOnFailure: true
+
+maxRetries: 1
+concurrency: 4
+
+env:
+  CACHE_DIR: m2_cache_dir
+
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - ${CACHE_DIR}
+
+shell: bash
+
+pre:
+  # Download dependencies into CACHE_DIR; skip running tests in the pre step
+  - mvn -Dmaven.repo.local=${CACHE_DIR} -Dmaven.test.skip=true clean install
+
+post:
+  - cat yaml/cucumber_hyperexecute_cross_browser.yaml
+
+mergeArtifacts: true
+
+uploadArtefacts:
+  - name: XmlReports
+    path:
+      - target/surefire-reports/testng-results.xml
+  - name: JsonReports
+    path:
+      - target/cucumber-reports/CucumberTestReport.json
+
+report: true
+partialReports:
+  location: target/cucumber-reports/
+  frameworkName: cucumber
+  type: json
+
+# One task per scenario tag; each task runs that scenario on all four browser/OS pairs
+testDiscovery:
+  type: raw
+  mode: remote
+  command: grep -nri '@' src/main/java/Features --include=\*.feature | sed 's/^.*://'
+
+testRunnerCommand: mvn test -Dplatname=cross_browser -Dmaven.repo.local=m2_cache_dir -Dcucumber.filter.tags="$test"
+
+jobLabel: [selenium-cucumber-java, cross-browser, autosplit]

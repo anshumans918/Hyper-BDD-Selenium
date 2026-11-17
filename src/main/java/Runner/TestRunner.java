@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.safari.SafariOptions;
 import org.testng.annotations.*;
 
 import java.net.URL;
@@ -48,6 +49,8 @@ public class TestRunner {
             browserOptions = new FirefoxOptions();
         } else if (browser.equalsIgnoreCase("Microsoft Edge")) {
             browserOptions = new EdgeOptions();
+        } else if (browser.equalsIgnoreCase("safari")) {
+            browserOptions = new SafariOptions();
         } else {
             browserOptions = new ChromeOptions();
         }

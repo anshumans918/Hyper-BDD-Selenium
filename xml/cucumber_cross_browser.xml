@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Cross-browser suite: every scenario runs on each browser/OS pair below (latest versions).
+     Run with -Dplatname=cross_browser. Tests run one after another because TestRunner shares a static driver. -->
+<suite name="Cucumber cross-browser on HyperExecute" verbose="1">
+    <test name="[Test-1] macOS Tahoe: Safari latest" preserve-order="true">
+        <parameter name="browser" value="Safari"/>
+        <parameter name="version" value="latest"/>
+        <parameter name="platform" value="macOS Tahoe"/>
+        <classes>
+            <class name="Runner.TestRunner" />
+        </classes>
+    </test>
+    <test name="[Test-2] Windows 11: Chrome latest" preserve-order="true">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="latest"/>
+        <parameter name="platform" value="Windows 11"/>
+        <classes>
+            <class name="Runner.TestRunner" />
+        </classes>
+    </test>
+    <test name="[Test-3] Windows 11: Firefox latest" preserve-order="true">
+        <parameter name="browser" value="Firefox"/>
+        <parameter name="version" value="latest"/>
+        <parameter name="platform" value="Windows 11"/>
+        <classes>
+            <class name="Runner.TestRunner" />
+        </classes>
+    </test>
+    <test name="[Test-4] Linux: Chrome latest" preserve-order="true">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="latest"/>
+        <parameter name="platform" value="Linux"/>
+        <classes>
+            <class name="Runner.TestRunner" />
+        </classes>
+    </test>
+</suite>

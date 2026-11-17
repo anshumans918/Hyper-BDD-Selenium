@@ -1,0 +1,334 @@
+{"level":"warn","time":"2026-11-16T23:21:14.756+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2026-11-16T23:21:14.757+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2026-11-16T23:21:15.594+0530","caller":"cmd/bin.go:138","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2026-11-16T23:21:15.594+0530","caller":"cmd/bin.go:139","msg":"Current binary version: 0.2.367, Environment: prod"}
+{"level":"debug","time":"2026-11-16T23:21:16.310+0530","caller":"cmd/bin.go:148","msg":"Upstream version details: {Name:cli Min:0.2.365 Max:0.2.367} "}
+{"level":"info","time":"2026-11-16T23:21:16.310+0530","caller":"cmd/bin.go:196","msg":"Generating TraceID for tracking request: 01M7JQR3904R2EWD4Q0C2WT8Q1 \n"}
+{"level":"warn","time":"2026-11-16T23:21:16.311+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2026-11-16T23:21:16.311+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2026-11-16T23:21:18.112+0530","caller":"core/lifecycle.go:126","msg":"Setting environment"}
+{"level":"debug","time":"2026-11-16T23:21:18.112+0530","caller":"core/lifecycle.go:129","msg":"Parsing config"}
+{"level":"debug","time":"2026-11-16T23:21:18.112+0530","caller":"yamlconfigmanager/setup.go:746","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/cucumber_hyperexecute_cross_browser.yaml"}
+{"level":"debug","time":"2026-11-16T23:21:18.112+0530","caller":"yamlconfigmanager/setup.go:120","msg":"using hyperexecute config from : yaml/cucumber_hyperexecute_cross_browser.yaml"}
+{"level":"debug","time":"2026-11-16T23:21:18.113+0530","caller":"yamlconfigmanager/setup.go:2175","msg":"Environment variable not set against the variable - CACHE_DIR mentioned in yaml"}
+{"level":"debug","time":"2026-11-16T23:21:18.113+0530","caller":"yamlconfigmanager/setup.go:2175","msg":"Environment variable not set against the variable - CACHE_DIR mentioned in yaml"}
+{"level":"debug","time":"2026-11-16T23:21:18.116+0530","caller":"yamlconfigmanager/setup.go:2412","msg":"Autodetecting test type in files of path : C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample"}
+{"level":"debug","time":"2026-11-16T23:21:18.116+0530","caller":"yamlconfigmanager/setup.go:1837","msg":"dynamic discovery redirect: flag off, keeping mode=dynamic"}
+{"level":"debug","time":"2026-11-16T23:21:18.116+0530","caller":"yamlconfigmanager/setup.go:570","msg":"Tunnel: false"}
+{"level":"info","time":"2026-11-16T23:21:18.116+0530","caller":"models/HypertestYamlConfig.go:1027","msg":"\nExecution Plan"}
+{"level":"info","time":"2026-11-16T23:21:18.116+0530","caller":"models/HypertestYamlConfig.go:828","msg":"Mode:    autosplit"}
+{"level":"info","time":"2026-11-16T23:21:18.116+0530","caller":"models/HypertestYamlConfig.go:888","msg":"Runson:    linux"}
+{"level":"info","time":"2026-11-16T23:21:18.116+0530","caller":"models/HypertestYamlConfig.go:896","msg":"Concurrency:    4"}
+{"level":"info","time":"2026-11-16T23:21:18.116+0530","caller":"models/HypertestYamlConfig.go:960","msg":"Report:    enabled"}
+{"level":"info","time":"2026-11-16T23:21:18.116+0530","caller":"models/HypertestYamlConfig.go:974","msg":"Artefacts:"}
+{"level":"info","time":"2026-11-16T23:21:18.116+0530","caller":"models/HypertestYamlConfig.go:977","msg":"    XmlReports:    target/surefire-reports/testng-results.xml"}
+{"level":"info","time":"2026-11-16T23:21:18.116+0530","caller":"models/HypertestYamlConfig.go:977","msg":"    JsonReports:    target/cucumber-reports/CucumberTestReport.json"}
+{"level":"info","time":"2026-11-16T23:21:18.118+0530","caller":"models/HypertestYamlConfig.go:992","msg":"Cache Directories:"}
+{"level":"info","time":"2026-11-16T23:21:18.118+0530","caller":"models/HypertestYamlConfig.go:994","msg":"    ${CACHE_DIR}"}
+{"level":"info","time":"2026-11-16T23:21:18.118+0530","caller":"models/HypertestYamlConfig.go:1040","msg":""}
+{"level":"debug","time":"2026-11-16T23:21:18.118+0530","caller":"filevalidator/setup.go:50","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2026-11-16T23:21:18.119+0530","caller":"filevalidator/setup.go:54","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2026-11-16T23:21:21.616+0530","caller":"core/lifecycle.go:407","msg":"Job ID: fadc98aa-2691-4e68-8d25-341ce70ee817"}
+{"level":"debug","time":"2026-11-16T23:21:21.616+0530","caller":"core/lifecycle.go:410","msg":"User - anshumans, triggered job with ID fadc98aa-2691-4e68-8d25-341ce70ee817 from CLI"}
+{"level":"debug","time":"2026-11-16T23:21:21.616+0530","caller":"events/manager.go:97","msg":"Starting event manager"}
+{"level":"debug","time":"2026-11-16T23:21:21.616+0530","caller":"events/manager.go:99","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2026-11-16T23:21:21.617+0530","caller":"archivemanager/setup.go:342","msg":"digestMap: map[]"}
+{"level":"debug","time":"2026-11-16T23:21:21.617+0530","caller":"archivemanager/setup.go:348","msg":"Creating archive of target directory: C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample"}
+{"level":"debug","time":"2026-11-16T23:21:21.691+0530","caller":"core/lifecycle.go:564","msg":"Zip file size: 577.04 kB"}
+{"level":"debug","time":"2026-11-16T23:21:21.691+0530","caller":"core/lifecycle.go:574","msg":"Archive location: C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample\\hyperexecute-code-fadc98aa-2691-4e68-8d25-341ce70ee817.zip\n"}
+{"level":"debug","time":"2026-11-16T23:21:21.692+0530","caller":"receptionmanager/setup.go:474","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2026-11-16T23:21:21.694+0530","caller":"receptionmanager/setup.go:503","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2026-11-16T23:21:21.696+0530","caller":"receptionmanager/setup.go:244","msg":"policy enforce: feature flag off, skipping enforcement"}
+{"level":"debug","time":"2026-11-16T23:21:21.698+0530","caller":"receptionmanager/setup.go:378","msg":"Uploading yaml : C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2026-11-16T23:21:21.698+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.87 kB, source path C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2026-11-16T23:21:21.699+0530","caller":"utils/azcopy.go:133","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2026-11-16T23:21:21.792+0530","caller":"utils/azcopy.go:90","msg":"Downloading dependency to upload files"}
+{"level":"debug","time":"2026-11-16T23:21:22.661+0530","caller":"events/manager.go:288","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2026-11-16T23:21:22.674+0530","caller":"storage/azure.go:59","msg":"Payload size: 927 B, source path C:\\Users\\ANSHUM~1\\AppData\\Local\\Temp\\git.diff"}
+{"level":"info","time":"2026-11-16T23:21:27.773+0530","caller":"utils/azcopy.go:108","msg":"✔ Dependency binary downloaded successfully"}
+{"level":"debug","time":"2026-11-16T23:21:27.774+0530","caller":"utils/azcopy.go:184","msg":"returning from fallback"}
+{"level":"debug","time":"2026-11-16T23:21:30.653+0530","caller":"storage/azure.go:83","msg":"Azcopy output: \n\r100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0195\nTotal time taken to upload(min) :0.0333\n, stderr: "}
+{"level":"info","time":"2026-11-16T23:21:30.654+0530","caller":"storage/azure.go:122","msg":"File: C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample\\.updatedhyperexecute.yaml upload completed in 8.9551652s"}
+{"level":"debug","time":"2026-11-16T23:21:30.654+0530","caller":"storage/azure.go:59","msg":"Payload size: 577.04 kB, source path C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample\\hyperexecute-code-fadc98aa-2691-4e68-8d25-341ce70ee817.zip"}
+{"level":"debug","time":"2026-11-16T23:21:30.767+0530","caller":"storage/azure.go:83","msg":"Azcopy output: \n\r100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0037\nTotal time taken to upload(min) :0.0333\n, stderr: "}
+{"level":"info","time":"2026-11-16T23:21:30.767+0530","caller":"storage/azure.go:122","msg":"File: C:\\Users\\ANSHUM~1\\AppData\\Local\\Temp\\git.diff upload completed in 8.0939743s"}
+{"level":"debug","time":"2026-11-16T23:21:35.330+0530","caller":"storage/azure.go:83","msg":"Azcopy output: \n\r0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 2.3079\r100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total,                              \nTotal time taken to upload(min) :0.0667\n, stderr: "}
+{"level":"info","time":"2026-11-16T23:21:35.330+0530","caller":"storage/azure.go:122","msg":"File: C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample\\hyperexecute-code-fadc98aa-2691-4e68-8d25-341ce70ee817.zip upload completed in 4.6763196s"}
+{"level":"debug","time":"2026-11-16T23:21:35.331+0530","caller":"core/lifecycle.go:616","msg":"Successfully deleted code archive: C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample\\hyperexecute-code-fadc98aa-2691-4e68-8d25-341ce70ee817.zip\n"}
+{"level":"debug","time":"2026-11-16T23:21:35.333+0530","caller":"storage/azure.go:59","msg":"Payload size: 1.63 kB, source path yaml\\mask-fadc98aa-2691-4e68-8d25-341ce70ee817.yaml"}
+{"level":"debug","time":"2026-11-16T23:21:38.374+0530","caller":"storage/azure.go:83","msg":"Azcopy output: \n\r100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0065\nTotal time taken to upload(min) :0.0333\n, stderr: "}
+{"level":"info","time":"2026-11-16T23:21:38.374+0530","caller":"storage/azure.go:122","msg":"File: yaml\\mask-fadc98aa-2691-4e68-8d25-341ce70ee817.yaml upload completed in 3.0414699s"}
+{"level":"debug","time":"2026-11-16T23:21:38.375+0530","caller":"httpclient/client.go:45","msg":"[DEBUG] POST https://api-hyperexecute.lambdatest.com/dispatcher/api/dispatcher"}
+{"level":"info","time":"2026-11-16T23:21:39.959+0530","caller":"dispatchermanager/setup.go:94","msg":"Dispatch attempt to https://api-hyperexecute.lambdatest.com/dispatcher returned status 200"}
+{"level":"debug","time":"2026-11-16T23:21:40.864+0530","caller":"jobmanager/sse_setup.go:192","msg":"Task id: HYPL-1350616-1794851499534178378PYC"}
+{"level":"debug","time":"2026-11-16T23:21:40.864+0530","caller":"jobmanager/sse_setup.go:193","msg":"Sending new task alert to stage manager for taskId: HYPL-1350616-1794851499534178378PYC"}
+{"level":"debug","time":"2026-11-16T23:22:10.864+0530","caller":"events/manager.go:356","msg":"No new messages received from SSE for jobID: fadc98aa-2691-4e68-8d25-341ce70ee817. Fetching from APIs"}
+{"level":"info","time":"2026-11-16T23:22:11.590+0530","caller":"jobmanager/sse_setup.go:86","msg":"\nJob fadc98aa-2691-4e68-8d25-341ce70ee817 has INITIATED"}
+{"level":"info","time":"2026-11-16T23:22:11.590+0530","caller":"jobmanager/manager.go:136","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=fadc98aa-2691-4e68-8d25-341ce70ee817\n"}
+{"level":"info","time":"2026-11-16T23:22:31.952+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  cache-download (1s)\n"}
+{"level":"info","time":"2026-11-16T23:22:34.519+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  setup-runtime (3s)\n"}
+{"level":"info","time":"2026-11-16T23:23:03.475+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  pre (29s)\n"}
+{"level":"info","time":"2026-11-16T23:23:03.596+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  discovery (0s)\n"}
+{"level":"debug","time":"2026-11-16T23:23:04.660+0530","caller":"jobmanager/sse_setup.go:192","msg":"Task id: HYPL-1350616-1794851583252479571HXE"}
+{"level":"debug","time":"2026-11-16T23:23:04.660+0530","caller":"jobmanager/sse_setup.go:193","msg":"Sending new task alert to stage manager for taskId: HYPL-1350616-1794851583252479571HXE"}
+{"level":"debug","time":"2026-11-16T23:23:04.660+0530","caller":"jobmanager/sse_setup.go:192","msg":"Task id: HYPL-1350616-1794851583265244931WRZ"}
+{"level":"debug","time":"2026-11-16T23:23:04.660+0530","caller":"jobmanager/sse_setup.go:193","msg":"Sending new task alert to stage manager for taskId: HYPL-1350616-1794851583265244931WRZ"}
+{"level":"debug","time":"2026-11-16T23:23:04.660+0530","caller":"jobmanager/sse_setup.go:192","msg":"Task id: HYPL-1350616-1794851583271485691JUX"}
+{"level":"debug","time":"2026-11-16T23:23:04.660+0530","caller":"jobmanager/sse_setup.go:193","msg":"Sending new task alert to stage manager for taskId: HYPL-1350616-1794851583271485691JUX"}
+{"level":"debug","time":"2026-11-16T23:23:04.660+0530","caller":"jobmanager/sse_setup.go:192","msg":"Task id: HYPL-1350616-1794851583281208019DQU"}
+{"level":"debug","time":"2026-11-16T23:23:04.660+0530","caller":"jobmanager/sse_setup.go:193","msg":"Sending new task alert to stage manager for taskId: HYPL-1350616-1794851583281208019DQU"}
+{"level":"debug","time":"2026-11-16T23:23:35.901+0530","caller":"events/manager.go:356","msg":"No new messages received from SSE for jobID: fadc98aa-2691-4e68-8d25-341ce70ee817. Fetching from APIs"}
+{"level":"debug","time":"2026-11-16T23:24:07.608+0530","caller":"events/manager.go:356","msg":"No new messages received from SSE for jobID: fadc98aa-2691-4e68-8d25-341ce70ee817. Fetching from APIs"}
+{"level":"info","time":"2026-11-16T23:24:38.705+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  cache-download (1s)\n"}
+{"level":"info","time":"2026-11-16T23:24:41.572+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  cache-download (1s)\n"}
+{"level":"info","time":"2026-11-16T23:24:41.807+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  setup-runtime (4s)\n"}
+{"level":"info","time":"2026-11-16T23:24:44.510+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  setup-runtime (3s)\n"}
+{"level":"info","time":"2026-11-16T23:24:48.124+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  pre (7s)\n"}
+{"level":"info","time":"2026-11-16T23:24:50.729+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  pre (7s)\n"}
+{"level":"info","time":"2026-11-16T23:24:58.933+0530","caller":"terminal/terminal.go:187","msg":"✔ [4]  cache-download (2s)\n"}
+{"level":"info","time":"2026-11-16T23:24:59.815+0530","caller":"terminal/terminal.go:187","msg":"✔ [5]  cache-download (2s)\n"}
+{"level":"info","time":"2026-11-16T23:25:01.829+0530","caller":"terminal/terminal.go:187","msg":"✔ [4]  setup-runtime (4s)\n"}
+{"level":"info","time":"2026-11-16T23:25:02.945+0530","caller":"terminal/terminal.go:187","msg":"✔ [5]  setup-runtime (4s)\n"}
+{"level":"info","time":"2026-11-16T23:25:07.703+0530","caller":"terminal/terminal.go:187","msg":"✔ [4]  pre (7s)\n"}
+{"level":"info","time":"2026-11-16T23:25:09.183+0530","caller":"terminal/terminal.go:187","msg":"✔ [5]  pre (7s)\n"}
+{"level":"warn","time":"2026-11-16T23:25:29.776+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2026-11-16T23:25:29.776+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2026-11-16T23:25:30.546+0530","caller":"cmd/bin.go:138","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2026-11-16T23:25:30.546+0530","caller":"cmd/bin.go:139","msg":"Current binary version: 0.2.367, Environment: prod"}
+{"level":"debug","time":"2026-11-16T23:25:31.224+0530","caller":"cmd/bin.go:148","msg":"Upstream version details: {Name:cli Min:0.2.365 Max:0.2.367} "}
+{"level":"info","time":"2026-11-16T23:25:31.224+0530","caller":"cmd/bin.go:196","msg":"Generating TraceID for tracking request: 01M7JQZWAF3JB877D2RS76EFNN \n"}
+{"level":"warn","time":"2026-11-16T23:25:31.226+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2026-11-16T23:25:31.227+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2026-11-16T23:25:32.977+0530","caller":"core/lifecycle.go:126","msg":"Setting environment"}
+{"level":"debug","time":"2026-11-16T23:25:32.977+0530","caller":"core/lifecycle.go:129","msg":"Parsing config"}
+{"level":"debug","time":"2026-11-16T23:25:32.977+0530","caller":"yamlconfigmanager/setup.go:746","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/cucumber_hyperexecute_hybrid_sample.yaml"}
+{"level":"debug","time":"2026-11-16T23:25:32.977+0530","caller":"yamlconfigmanager/setup.go:120","msg":"using hyperexecute config from : yaml/cucumber_hyperexecute_hybrid_sample.yaml"}
+{"level":"debug","time":"2026-11-16T23:25:32.977+0530","caller":"yamlconfigmanager/setup.go:2175","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2026-11-16T23:25:32.977+0530","caller":"yamlconfigmanager/setup.go:2175","msg":"Environment variable not set against the variable - CACHE_DIR mentioned in yaml"}
+{"level":"debug","time":"2026-11-16T23:25:32.977+0530","caller":"yamlconfigmanager/setup.go:2175","msg":"Environment variable not set against the variable - CACHE_DIR mentioned in yaml"}
+{"level":"debug","time":"2026-11-16T23:25:32.977+0530","caller":"yamlconfigmanager/setup.go:2175","msg":"Environment variable not set against the variable - matrix.os mentioned in yaml"}
+{"level":"debug","time":"2026-11-16T23:25:32.979+0530","caller":"yamlconfigmanager/setup.go:2412","msg":"Autodetecting test type in files of path : C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample"}
+{"level":"debug","time":"2026-11-16T23:25:33.778+0530","caller":"yamlconfigmanager/setup.go:1837","msg":"dynamic discovery redirect: flag off, keeping mode=dynamic"}
+{"level":"debug","time":"2026-11-16T23:25:33.778+0530","caller":"yamlconfigmanager/setup.go:570","msg":"Tunnel: false"}
+{"level":"info","time":"2026-11-16T23:25:33.778+0530","caller":"models/HypertestYamlConfig.go:1027","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2026-11-16T23:25:33.778+0530","caller":"models/HypertestYamlConfig.go:826","msg":"Mode:    \u001b[36mhybrid\u001b[0m"}
+{"level":"info","time":"2026-11-16T23:25:33.778+0530","caller":"models/HypertestYamlConfig.go:880","msg":"Parallelism:    \u001b[36m Mac - 2 Linux - 2 Windows - 2  Default - 2\u001b[0m"}
+{"level":"info","time":"2026-11-16T23:25:33.779+0530","caller":"models/HypertestYamlConfig.go:888","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"info","time":"2026-11-16T23:25:33.779+0530","caller":"models/HypertestYamlConfig.go:896","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2026-11-16T23:25:33.779+0530","caller":"models/HypertestYamlConfig.go:960","msg":"Report:    \u001b[36menabled\u001b[0m"}
+{"level":"info","time":"2026-11-16T23:25:33.779+0530","caller":"models/HypertestYamlConfig.go:974","msg":"Artefacts:"}
+{"level":"info","time":"2026-11-16T23:25:33.779+0530","caller":"models/HypertestYamlConfig.go:977","msg":"    XmlReports:    \u001b[36mtarget/surefire-reports/testng-results.xml\u001b[0m"}
+{"level":"info","time":"2026-11-16T23:25:33.779+0530","caller":"models/HypertestYamlConfig.go:977","msg":"    JsonReports:    \u001b[36mtarget/cucumber-reports/CucumberTestReport.json\u001b[0m"}
+{"level":"info","time":"2026-11-16T23:25:33.779+0530","caller":"models/HypertestYamlConfig.go:992","msg":"Cache Directories:"}
+{"level":"info","time":"2026-11-16T23:25:33.779+0530","caller":"models/HypertestYamlConfig.go:994","msg":"    \u001b[36m${CACHE_DIR}\u001b[0m"}
+{"level":"info","time":"2026-11-16T23:25:33.779+0530","caller":"models/HypertestYamlConfig.go:1040","msg":""}
+{"level":"debug","time":"2026-11-16T23:25:33.779+0530","caller":"filevalidator/setup.go:50","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2026-11-16T23:25:33.779+0530","caller":"filevalidator/setup.go:54","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2026-11-16T23:25:37.149+0530","caller":"core/lifecycle.go:407","msg":"Job ID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef"}
+{"level":"debug","time":"2026-11-16T23:25:37.149+0530","caller":"core/lifecycle.go:410","msg":"User - anshumans, triggered job with ID 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef from CLI"}
+{"level":"debug","time":"2026-11-16T23:25:37.149+0530","caller":"events/manager.go:97","msg":"Starting event manager"}
+{"level":"debug","time":"2026-11-16T23:25:37.150+0530","caller":"events/manager.go:99","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2026-11-16T23:25:37.151+0530","caller":"archivemanager/setup.go:342","msg":"digestMap: map[]"}
+{"level":"debug","time":"2026-11-16T23:25:37.152+0530","caller":"archivemanager/setup.go:348","msg":"Creating archive of target directory: C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample"}
+{"level":"debug","time":"2026-11-16T23:25:37.221+0530","caller":"core/lifecycle.go:564","msg":"Zip file size: 577.10 kB"}
+{"level":"debug","time":"2026-11-16T23:25:37.221+0530","caller":"core/lifecycle.go:574","msg":"Archive location: C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample\\hyperexecute-code-69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef.zip\n"}
+{"level":"debug","time":"2026-11-16T23:25:37.223+0530","caller":"receptionmanager/setup.go:474","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2026-11-16T23:25:37.223+0530","caller":"receptionmanager/setup.go:503","msg":"only one partialreports entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2026-11-16T23:25:37.224+0530","caller":"receptionmanager/setup.go:244","msg":"policy enforce: feature flag off, skipping enforcement"}
+{"level":"debug","time":"2026-11-16T23:25:37.225+0530","caller":"receptionmanager/setup.go:378","msg":"Uploading yaml : C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2026-11-16T23:25:37.225+0530","caller":"storage/azure.go:59","msg":"Payload size: 5.42 kB, source path C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2026-11-16T23:25:38.055+0530","caller":"storage/azure.go:59","msg":"Payload size: 927 B, source path C:\\Users\\ANSHUM~1\\AppData\\Local\\Temp\\git.diff"}
+{"level":"debug","time":"2026-11-16T23:25:38.309+0530","caller":"events/manager.go:288","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2026-11-16T23:25:39.938+0530","caller":"storage/azure.go:83","msg":"Azcopy output: \n\r100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0217\nTotal time taken to upload(min) :0.0333\n, stderr: "}
+{"level":"info","time":"2026-11-16T23:25:39.938+0530","caller":"storage/azure.go:122","msg":"File: C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample\\.updatedhyperexecute.yaml upload completed in 2.71394s"}
+{"level":"debug","time":"2026-11-16T23:25:39.939+0530","caller":"storage/azure.go:59","msg":"Payload size: 577.10 kB, source path C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample\\hyperexecute-code-69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef.zip"}
+{"level":"info","time":"2026-11-16T23:25:40.661+0530","caller":"terminal/terminal.go:187","msg":"x [3]  @LambdaTestBlogSearch (42s)\n"}
+{"level":"debug","time":"2026-11-16T23:25:40.719+0530","caller":"storage/azure.go:83","msg":"Azcopy output: \n\r100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0037\nTotal time taken to upload(min) :0.0333\n, stderr: "}
+{"level":"info","time":"2026-11-16T23:25:40.719+0530","caller":"storage/azure.go:122","msg":"File: C:\\Users\\ANSHUM~1\\AppData\\Local\\Temp\\git.diff upload completed in 2.6634486s"}
+{"level":"debug","time":"2026-11-16T23:25:44.608+0530","caller":"storage/azure.go:83","msg":"Azcopy output: \n\r0.0 %, 0 Done, 0 Failed, 1 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 1.8348\r100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.4734\nTotal time taken to upload(min) :0.0667\n, stderr: "}
+{"level":"info","time":"2026-11-16T23:25:44.608+0530","caller":"storage/azure.go:122","msg":"File: C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample\\hyperexecute-code-69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef.zip upload completed in 4.6691015s"}
+{"level":"debug","time":"2026-11-16T23:25:44.609+0530","caller":"core/lifecycle.go:616","msg":"Successfully deleted code archive: C:\\Users\\anshumans\\cucumber-selenium-hyperexecute-sample\\hyperexecute-code-69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef.zip\n"}
+{"level":"debug","time":"2026-11-16T23:25:44.610+0530","caller":"storage/azure.go:59","msg":"Payload size: 1.33 kB, source path yaml\\mask-69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef.yaml"}
+{"level":"debug","time":"2026-11-16T23:25:47.378+0530","caller":"storage/azure.go:83","msg":"Azcopy output: \n\r100.0 %, 1 Done, 0 Failed, 0 Pending, 0 Skipped, 1 Total, 2-sec Throughput (Mb/s): 0.0053\nTotal time taken to upload(min) :0.0333\n, stderr: "}
+{"level":"info","time":"2026-11-16T23:25:47.378+0530","caller":"storage/azure.go:122","msg":"File: yaml\\mask-69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef.yaml upload completed in 2.7672343s"}
+{"level":"debug","time":"2026-11-16T23:25:47.379+0530","caller":"httpclient/client.go:45","msg":"[DEBUG] POST https://api-hyperexecute.lambdatest.com/dispatcher/api/dispatcher"}
+{"level":"info","time":"2026-11-16T23:25:48.935+0530","caller":"dispatchermanager/setup.go:94","msg":"Dispatch attempt to https://api-hyperexecute.lambdatest.com/dispatcher returned status 200"}
+{"level":"debug","time":"2026-11-16T23:25:49.791+0530","caller":"jobmanager/sse_setup.go:192","msg":"Task id: HYPM-1350616-1794851748420881258XTF"}
+{"level":"debug","time":"2026-11-16T23:25:49.792+0530","caller":"jobmanager/sse_setup.go:193","msg":"Sending new task alert to stage manager for taskId: HYPM-1350616-1794851748420881258XTF"}
+{"level":"debug","time":"2026-11-16T23:25:49.792+0530","caller":"jobmanager/sse_setup.go:192","msg":"Task id: HYPW-1350616-1794851748425661784DKF"}
+{"level":"debug","time":"2026-11-16T23:25:49.792+0530","caller":"jobmanager/sse_setup.go:193","msg":"Sending new task alert to stage manager for taskId: HYPW-1350616-1794851748425661784DKF"}
+{"level":"debug","time":"2026-11-16T23:25:49.792+0530","caller":"jobmanager/sse_setup.go:192","msg":"Task id: HYPL-1350616-1794851748430497426TMF"}
+{"level":"debug","time":"2026-11-16T23:25:49.792+0530","caller":"jobmanager/sse_setup.go:193","msg":"Sending new task alert to stage manager for taskId: HYPL-1350616-1794851748430497426TMF"}
+{"level":"info","time":"2026-11-16T23:25:52.756+0530","caller":"jobmanager/sse_setup.go:84","msg":"\nJob 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef has started RUNNING"}
+{"level":"info","time":"2026-11-16T23:25:52.756+0530","caller":"jobmanager/manager.go:136","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef\n"}
+{"level":"info","time":"2026-11-16T23:25:53.872+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  cache-download (1s)\n"}
+{"level":"info","time":"2026-11-16T23:25:54.860+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  cache-download (3s)\n"}
+{"level":"info","time":"2026-11-16T23:25:54.981+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  cache-download (2s)\n"}
+{"level":"info","time":"2026-11-16T23:25:55.775+0530","caller":"terminal/terminal.go:187","msg":"x [2]  @BingSearch (59s)\n"}
+{"level":"info","time":"2026-11-16T23:25:56.896+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  setup-runtime (4s)\n"}
+{"level":"info","time":"2026-11-16T23:25:57.427+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  setup-runtime (3s)\n"}
+{"level":"info","time":"2026-11-16T23:25:57.870+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  setup-runtime (4s)\n"}
+{"level":"info","time":"2026-11-16T23:25:59.415+0530","caller":"terminal/terminal.go:187","msg":"x [5]  @ToDo (42s)\n"}
+{"level":"info","time":"2026-11-16T23:26:03.742+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  pre (7s)\n"}
+{"level":"info","time":"2026-11-16T23:26:03.916+0530","caller":"terminal/terminal.go:187","msg":"✔ [3]  discovery (1s)\n"}
+{"level":"debug","time":"2026-11-16T23:26:04.414+0530","caller":"jobmanager/sse_setup.go:192","msg":"Task id: HYPL-1350616-1794851763114126959MZR"}
+{"level":"debug","time":"2026-11-16T23:26:04.414+0530","caller":"jobmanager/sse_setup.go:193","msg":"Sending new task alert to stage manager for taskId: HYPL-1350616-1794851763114126959MZR"}
+{"level":"debug","time":"2026-11-16T23:26:04.414+0530","caller":"jobmanager/sse_setup.go:192","msg":"Task id: HYPL-1350616-1794851763120083718DHI"}
+{"level":"debug","time":"2026-11-16T23:26:04.414+0530","caller":"jobmanager/sse_setup.go:193","msg":"Sending new task alert to stage manager for taskId: HYPL-1350616-1794851763120083718DHI"}
+{"level":"info","time":"2026-11-16T23:26:07.493+0530","caller":"terminal/terminal.go:187","msg":"✔ [4]  cache-download (1s)\n"}
+{"level":"info","time":"2026-11-16T23:26:08.618+0530","caller":"terminal/terminal.go:187","msg":"✔ [5]  cache-download (1s)\n"}
+{"level":"info","time":"2026-11-16T23:26:10.039+0530","caller":"terminal/terminal.go:187","msg":"✔ [4]  setup-runtime (3s)\n"}
+{"level":"info","time":"2026-11-16T23:26:11.664+0530","caller":"terminal/terminal.go:187","msg":"✔ [5]  setup-runtime (3s)\n"}
+{"level":"info","time":"2026-11-16T23:26:15.681+0530","caller":"terminal/terminal.go:187","msg":"✔ [4]  pre (6s)\n"}
+{"level":"info","time":"2026-11-16T23:26:16.929+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  pre (21s)\n"}
+{"level":"info","time":"2026-11-16T23:26:17.133+0530","caller":"terminal/terminal.go:187","msg":"✔ [2]  discovery (1s)\n"}
+{"level":"info","time":"2026-11-16T23:26:17.743+0530","caller":"terminal/terminal.go:187","msg":"✔ [5]  pre (7s)\n"}
+{"level":"debug","time":"2026-11-16T23:26:18.165+0530","caller":"jobmanager/sse_setup.go:192","msg":"Task id: HYPW-1350616-1794851776850737230DOU"}
+{"level":"debug","time":"2026-11-16T23:26:18.165+0530","caller":"jobmanager/sse_setup.go:193","msg":"Sending new task alert to stage manager for taskId: HYPW-1350616-1794851776850737230DOU"}
+{"level":"debug","time":"2026-11-16T23:26:18.165+0530","caller":"jobmanager/sse_setup.go:192","msg":"Task id: HYPW-1350616-1794851776855546814HNY"}
+{"level":"debug","time":"2026-11-16T23:26:18.165+0530","caller":"jobmanager/sse_setup.go:193","msg":"Sending new task alert to stage manager for taskId: HYPW-1350616-1794851776855546814HNY"}
+{"level":"info","time":"2026-11-16T23:26:21.546+0530","caller":"terminal/terminal.go:187","msg":"✔ [6]  cache-download (1s)\n"}
+{"level":"info","time":"2026-11-16T23:26:22.273+0530","caller":"terminal/terminal.go:187","msg":"✔ [7]  cache-download (1s)\n"}
+{"level":"info","time":"2026-11-16T23:26:26.160+0530","caller":"terminal/terminal.go:187","msg":"✔ [7]  setup-runtime (4s)\n"}
+{"level":"info","time":"2026-11-16T23:26:26.420+0530","caller":"terminal/terminal.go:187","msg":"✔ [6]  setup-runtime (5s)\n"}
+{"level":"debug","time":"2026-11-16T23:26:29.413+0530","caller":"events/manager.go:356","msg":"No new messages received from SSE for jobID: fadc98aa-2691-4e68-8d25-341ce70ee817. Fetching from APIs"}
+{"level":"info","time":"2026-11-16T23:26:33.435+0530","caller":"terminal/terminal.go:187","msg":"✔ [7]  pre (7s)\n"}
+{"level":"info","time":"2026-11-16T23:26:33.539+0530","caller":"terminal/terminal.go:187","msg":"✔ [6]  pre (7s)\n"}
+{"level":"info","time":"2026-11-16T23:26:37.056+0530","caller":"terminal/terminal.go:187","msg":"x [3]  {retry 1} @LambdaTestBlogSearch (23s)\n"}
+{"level":"info","time":"2026-11-16T23:26:59.567+0530","caller":"terminal/terminal.go:187","msg":"x [5]  {retry 1} @ToDo (25s)\n"}
+{"level":"info","time":"2026-11-16T23:27:06.700+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  pre (1m9s)\n"}
+{"level":"info","time":"2026-11-16T23:27:07.006+0530","caller":"terminal/terminal.go:187","msg":"✔ [1]  discovery (1s)\n"}
+{"level":"info","time":"2026-11-16T23:27:07.292+0530","caller":"terminal/terminal.go:187","msg":"x [2]  {retry 1} @BingSearch (39s)\n"}
+{"level":"debug","time":"2026-11-16T23:27:08.973+0530","caller":"jobmanager/sse_setup.go:192","msg":"Task id: HYPM-1350616-1794851827666083742IIF"}
+{"level":"debug","time":"2026-11-16T23:27:08.973+0530","caller":"jobmanager/sse_setup.go:193","msg":"Sending new task alert to stage manager for taskId: HYPM-1350616-1794851827666083742IIF"}
+{"level":"debug","time":"2026-11-16T23:27:08.973+0530","caller":"jobmanager/sse_setup.go:192","msg":"Task id: HYPM-1350616-1794851827670683988FVH"}
+{"level":"debug","time":"2026-11-16T23:27:08.973+0530","caller":"jobmanager/sse_setup.go:193","msg":"Sending new task alert to stage manager for taskId: HYPM-1350616-1794851827670683988FVH"}
+{"level":"info","time":"2026-11-16T23:27:15.949+0530","caller":"terminal/terminal.go:187","msg":"✔ [9]  cache-download (3s)\n"}
+{"level":"info","time":"2026-11-16T23:27:18.168+0530","caller":"terminal/terminal.go:187","msg":"✔ [9]  setup-runtime (3s)\n"}
+{"level":"info","time":"2026-11-16T23:27:19.429+0530","caller":"terminal/terminal.go:187","msg":"x [4]  @SeleniumPlayground (2m4s)\n"}
+{"level":"info","time":"2026-11-16T23:27:20.298+0530","caller":"terminal/terminal.go:187","msg":"✔ [9]  pre (2s)\n"}
+{"level":"info","time":"2026-11-16T23:27:25.434+0530","caller":"terminal/terminal.go:187","msg":"✔ [8]  cache-download (13s)\n"}
+{"level":"info","time":"2026-11-16T23:27:27.752+0530","caller":"terminal/terminal.go:187","msg":"✔ [8]  setup-runtime (2s)\n"}
+{"level":"info","time":"2026-11-16T23:27:29.497+0530","caller":"terminal/terminal.go:187","msg":"✔ [8]  pre (2s)\n"}
+{"level":"debug","time":"2026-11-16T23:28:13.702+0530","caller":"events/manager.go:356","msg":"No new messages received from SSE for jobID: fadc98aa-2691-4e68-8d25-341ce70ee817. Fetching from APIs"}
+{"level":"debug","time":"2026-11-16T23:28:15.870+0530","caller":"events/manager.go:356","msg":"No new messages received from SSE for jobID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef. Fetching from APIs"}
+{"level":"debug","time":"2026-11-16T23:28:45.272+0530","caller":"events/manager.go:356","msg":"No new messages received from SSE for jobID: fadc98aa-2691-4e68-8d25-341ce70ee817. Fetching from APIs"}
+{"level":"debug","time":"2026-11-16T23:28:47.581+0530","caller":"events/manager.go:356","msg":"No new messages received from SSE for jobID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef. Fetching from APIs"}
+{"level":"info","time":"2026-11-16T23:29:08.490+0530","caller":"terminal/terminal.go:187","msg":"✔ [4]  @LambdaTestBlogSearch (2m42s)\n"}
+{"level":"debug","time":"2026-11-16T23:29:16.776+0530","caller":"events/manager.go:356","msg":"No new messages received from SSE for jobID: fadc98aa-2691-4e68-8d25-341ce70ee817. Fetching from APIs"}
+{"level":"info","time":"2026-11-16T23:29:22.385+0530","caller":"terminal/terminal.go:187","msg":"x [5]  @SeleniumPlayground (2m55s)\n"}
+{"level":"info","time":"2026-11-16T23:29:40.796+0530","caller":"terminal/terminal.go:187","msg":"x [4]  {retry 1} @SeleniumPlayground (1m46s)\n"}
+{"level":"debug","time":"2026-11-16T23:29:53.167+0530","caller":"events/manager.go:356","msg":"No new messages received from SSE for jobID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef. Fetching from APIs"}
+{"level":"debug","time":"2026-11-16T23:30:10.792+0530","caller":"events/manager.go:356","msg":"No new messages received from SSE for jobID: fadc98aa-2691-4e68-8d25-341ce70ee817. Fetching from APIs"}
+{"level":"debug","time":"2026-11-16T23:30:14.893+0530","caller":"jobmanager/sse_setup.go:134","msg":"\n\nJob status"}
+{"level":"info","time":"2026-11-16T23:30:14.894+0530","caller":"core/lifecycle.go:719","msg":"taskId:HYPL-1350616-1794851583252479571HXE has failed with remark: Job failed as encountered a Test level failure\n"}
+{"level":"info","time":"2026-11-16T23:30:14.894+0530","caller":"core/lifecycle.go:719","msg":"taskId:HYPL-1350616-1794851583265244931WRZ has failed with remark: Job failed as encountered a Test level failure\n"}
+{"level":"info","time":"2026-11-16T23:30:14.895+0530","caller":"core/lifecycle.go:719","msg":"taskId:HYPL-1350616-1794851583271485691JUX has failed with remark: Job failed as encountered a Test level failure\n"}
+{"level":"info","time":"2026-11-16T23:30:14.895+0530","caller":"core/lifecycle.go:719","msg":"taskId:HYPL-1350616-1794851583281208019DQU has failed with remark: Job failed as encountered a Test level failure\n"}
+{"level":"info","time":"2026-11-16T23:30:14.907+0530","caller":"core/lifecycle.go:841","msg":"Downloading artifacts zip..."}
+{"level":"info","time":"2026-11-16T23:30:14.907+0530","caller":"core/lifecycle.go:845","msg":"--download-artifacts: downloading job artifact zips"}
+{"level":"debug","time":"2026-11-16T23:30:14.912+0530","caller":"artifactsmanager/download.go:394","msg":"Attempting to download artifacts zip for job ID: fadc98aa-2691-4e68-8d25-341ce70ee817"}
+{"level":"info","time":"2026-11-16T23:30:14.914+0530","caller":"artifactsmanager/download.go:299","msg":"Checking artifacts upload status for job ID: fadc98aa-2691-4e68-8d25-341ce70ee817"}
+{"level":"info","time":"2026-11-16T23:30:15.604+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n FAILED \n"}
+{"level":"info","time":"2026-11-16T23:30:15.605+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  3m56s"}
+{"level":"info","time":"2026-11-16T23:30:15.605+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    7m41s"}
+{"level":"info","time":"2026-11-16T23:30:15.605+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          5"}
+{"level":"info","time":"2026-11-16T23:30:15.605+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             13m59s"}
+{"level":"info","time":"2026-11-16T23:30:15.605+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         14"}
+{"level":"info","time":"2026-11-16T23:30:15.605+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2026-11-16T23:30:15.605+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2026-11-16T23:30:15.605+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2026-11-16T23:30:15.605+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2026-11-16T23:30:15.605+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           0.00%"}
+{"level":"info","time":"2026-11-16T23:30:15.605+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         100.00%"}
+{"level":"info","time":"2026-11-16T23:30:15.605+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2026-11-16T23:30:15.605+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         100.00%"}
+{"level":"info","time":"2026-11-16T23:30:15.605+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         4"}
+{"level":"info","time":"2026-11-16T23:30:15.605+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2026-11-16T23:30:17.157+0530","caller":"artifactsmanager/download.go:394","msg":"Attempting to download artifacts zip for job ID: fadc98aa-2691-4e68-8d25-341ce70ee817"}
+{"level":"info","time":"2026-11-16T23:30:17.158+0530","caller":"artifactsmanager/download.go:299","msg":"Checking artifacts upload status for job ID: fadc98aa-2691-4e68-8d25-341ce70ee817"}
+{"level":"debug","time":"2026-11-16T23:30:20.966+0530","caller":"artifactsmanager/download.go:394","msg":"Attempting to download artifacts zip for job ID: fadc98aa-2691-4e68-8d25-341ce70ee817"}
+{"level":"info","time":"2026-11-16T23:30:20.967+0530","caller":"artifactsmanager/download.go:299","msg":"Checking artifacts upload status for job ID: fadc98aa-2691-4e68-8d25-341ce70ee817"}
+{"level":"debug","time":"2026-11-16T23:30:24.807+0530","caller":"events/manager.go:356","msg":"No new messages received from SSE for jobID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef. Fetching from APIs"}
+{"level":"debug","time":"2026-11-16T23:30:27.556+0530","caller":"artifactsmanager/download.go:394","msg":"Attempting to download artifacts zip for job ID: fadc98aa-2691-4e68-8d25-341ce70ee817"}
+{"level":"info","time":"2026-11-16T23:30:27.556+0530","caller":"artifactsmanager/download.go:299","msg":"Checking artifacts upload status for job ID: fadc98aa-2691-4e68-8d25-341ce70ee817"}
+{"level":"info","time":"2026-11-16T23:30:28.265+0530","caller":"artifactsmanager/download.go:410","msg":"All artifacts are ready for download for job ID: fadc98aa-2691-4e68-8d25-341ce70ee817"}
+{"level":"debug","time":"2026-11-16T23:30:32.335+0530","caller":"artifactsmanager/download_joblevel.go:78","msg":"skipping job-level artefact \"XmlReports\" — already handled by per-task loop"}
+{"level":"debug","time":"2026-11-16T23:30:32.335+0530","caller":"artifactsmanager/download_joblevel.go:78","msg":"skipping job-level artefact \"JsonReports\" — already handled by per-task loop"}
+{"level":"info","time":"2026-11-16T23:30:32.335+0530","caller":"core/lifecycle.go:862","msg":"Job artifacts zip downloaded successfully"}
+{"level":"debug","time":"2026-11-16T23:30:32.336+0530","caller":"core/lifecycle.go:783","msg":"Context canceled"}
+{"level":"info","time":"2026-11-16T23:30:32.336+0530","caller":"core/lifecycle.go:786","msg":"Stopping pipeline gracefully"}
+{"level":"info","time":"2026-11-16T23:30:32.336+0530","caller":"events/manager.go:338","msg":"context done and stopping SSE"}
+{"level":"debug","time":"2026-11-16T23:30:32.341+0530","caller":"events/manager.go:256","msg":"Stopping event manager"}
+{"level":"error","time":"2026-11-16T23:30:32.340+0530","caller":"core/lifecycle.go:789","msg":"2026-11-16T23:21:14+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2026-11-16T23:30:32.341+0530","caller":"jobmanager/manager.go:136","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=fadc98aa-2691-4e68-8d25-341ce70ee817\n"}
+{"level":"debug","time":"2026-11-16T23:30:32.341+0530","caller":"core/lifecycle.go:78","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2026-11-16T23:30:32.342+0530","caller":"core/lifecycle.go:79","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2026-11-16T23:30:32.342+0530","caller":"core/lifecycle.go:82","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2026-11-16T23:30:32.342+0530","caller":"cmd/bin.go:348","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2026-11-16T23:30:32.342+0530","caller":"cmd/bin.go:387","msg":"Exiting application due to error Failed tasks found."}
+{"level":"info","time":"2026-11-16T23:30:35.099+0530","caller":"terminal/terminal.go:187","msg":"✔ [7]  @LambdaTestBlogSearch (3m52s)\n"}
+{"level":"info","time":"2026-11-16T23:30:51.742+0530","caller":"terminal/terminal.go:187","msg":"✔ [6]  @BingSearch (4m8s)\n"}
+{"level":"debug","time":"2026-11-16T23:31:22.853+0530","caller":"events/manager.go:356","msg":"No new messages received from SSE for jobID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef. Fetching from APIs"}
+{"level":"info","time":"2026-11-16T23:31:39.520+0530","caller":"terminal/terminal.go:187","msg":"✔ [9]  @ToDo (4m1s)\n"}
+{"level":"info","time":"2026-11-16T23:31:50.760+0530","caller":"terminal/terminal.go:187","msg":"✔ [8]  @SeleniumPlayground (4m4s)\n"}
+{"level":"info","time":"2026-11-16T23:32:09.368+0530","caller":"terminal/terminal.go:187","msg":"✔ [4]  @BingSearch (2m58s)\n"}
+{"level":"info","time":"2026-11-16T23:32:30.722+0530","caller":"terminal/terminal.go:187","msg":"✔ [5]  @ToDo (3m7s)\n"}
+{"level":"info","time":"2026-11-16T23:32:40.286+0530","caller":"terminal/terminal.go:187","msg":"✔ [4]  post (0s)\n"}
+{"level":"debug","time":"2026-11-16T23:33:32.899+0530","caller":"events/manager.go:356","msg":"No new messages received from SSE for jobID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef. Fetching from APIs"}
+{"level":"info","time":"2026-11-16T23:34:02.363+0530","caller":"terminal/terminal.go:187","msg":"✔ [7]  @SeleniumPlayground (3m25s)\n"}
+{"level":"info","time":"2026-11-16T23:34:29.494+0530","caller":"terminal/terminal.go:187","msg":"✔ [6]  @ToDo (3m35s)\n"}
+{"level":"info","time":"2026-11-16T23:34:33.410+0530","caller":"terminal/terminal.go:187","msg":"✔ [7]  post (0s)\n"}
+{"level":"info","time":"2026-11-16T23:35:00.665+0530","caller":"terminal/terminal.go:187","msg":"✔ [6]  post (0s)\n"}
+{"level":"info","time":"2026-11-16T23:35:28.921+0530","caller":"terminal/terminal.go:187","msg":"✔ [9]  @BingSearch (3m47s)\n"}
+{"level":"info","time":"2026-11-16T23:35:37.271+0530","caller":"terminal/terminal.go:187","msg":"✔ [8]  @LambdaTestBlogSearch (3m44s)\n"}
+{"level":"info","time":"2026-11-16T23:36:03.486+0530","caller":"terminal/terminal.go:187","msg":"✔ [9]  post (0s)\n"}
+{"level":"info","time":"2026-11-16T23:36:08.867+0530","caller":"terminal/terminal.go:187","msg":"✔ [8]  post (1s)\n"}
+{"level":"debug","time":"2026-11-16T23:36:10.979+0530","caller":"jobmanager/sse_setup.go:134","msg":"\n\nJob status"}
+{"level":"info","time":"2026-11-16T23:36:10.981+0530","caller":"core/lifecycle.go:719","msg":"taskId:HYPL-1350616-1794851763120083718DHI has failed with remark: Job failed as encountered a Test level failure\n"}
+{"level":"info","time":"2026-11-16T23:36:10.992+0530","caller":"core/lifecycle.go:841","msg":"Downloading artifacts zip..."}
+{"level":"info","time":"2026-11-16T23:36:10.994+0530","caller":"core/lifecycle.go:845","msg":"--download-artifacts: downloading job artifact zips"}
+{"level":"debug","time":"2026-11-16T23:36:11.000+0530","caller":"artifactsmanager/download.go:394","msg":"Attempting to download artifacts zip for job ID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef"}
+{"level":"info","time":"2026-11-16T23:36:11.002+0530","caller":"artifactsmanager/download.go:299","msg":"Checking artifacts upload status for job ID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef"}
+{"level":"info","time":"2026-11-16T23:36:12.070+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n FAILED \n"}
+{"level":"info","time":"2026-11-16T23:36:12.073+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  8m56s"}
+{"level":"info","time":"2026-11-16T23:36:12.074+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    10m17s"}
+{"level":"info","time":"2026-11-16T23:36:12.074+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          9"}
+{"level":"info","time":"2026-11-16T23:36:12.074+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             50m7s"}
+{"level":"info","time":"2026-11-16T23:36:12.074+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         30"}
+{"level":"info","time":"2026-11-16T23:36:12.075+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2026-11-16T23:36:12.075+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2026-11-16T23:36:12.075+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2026-11-16T23:36:12.075+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2026-11-16T23:36:12.075+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           91.67%"}
+{"level":"info","time":"2026-11-16T23:36:12.076+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         8.33%"}
+{"level":"info","time":"2026-11-16T23:36:12.076+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           83.33%"}
+{"level":"info","time":"2026-11-16T23:36:12.077+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         16.67%"}
+{"level":"info","time":"2026-11-16T23:36:12.077+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         1"}
+{"level":"info","time":"2026-11-16T23:36:12.077+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2026-11-16T23:36:13.302+0530","caller":"artifactsmanager/download.go:394","msg":"Attempting to download artifacts zip for job ID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef"}
+{"level":"info","time":"2026-11-16T23:36:13.302+0530","caller":"artifactsmanager/download.go:299","msg":"Checking artifacts upload status for job ID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef"}
+{"level":"debug","time":"2026-11-16T23:36:17.063+0530","caller":"artifactsmanager/download.go:394","msg":"Attempting to download artifacts zip for job ID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef"}
+{"level":"info","time":"2026-11-16T23:36:17.063+0530","caller":"artifactsmanager/download.go:299","msg":"Checking artifacts upload status for job ID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef"}
+{"level":"debug","time":"2026-11-16T23:36:24.154+0530","caller":"artifactsmanager/download.go:394","msg":"Attempting to download artifacts zip for job ID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef"}
+{"level":"info","time":"2026-11-16T23:36:24.154+0530","caller":"artifactsmanager/download.go:299","msg":"Checking artifacts upload status for job ID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef"}
+{"level":"debug","time":"2026-11-16T23:36:36.528+0530","caller":"artifactsmanager/download.go:394","msg":"Attempting to download artifacts zip for job ID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef"}
+{"level":"info","time":"2026-11-16T23:36:36.528+0530","caller":"artifactsmanager/download.go:299","msg":"Checking artifacts upload status for job ID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef"}
+{"level":"info","time":"2026-11-16T23:36:37.261+0530","caller":"artifactsmanager/download.go:410","msg":"All artifacts are ready for download for job ID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef"}
+{"level":"debug","time":"2026-11-16T23:36:40.097+0530","caller":"events/manager.go:356","msg":"No new messages received from SSE for jobID: 69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef. Fetching from APIs"}
+{"level":"debug","time":"2026-11-16T23:36:40.610+0530","caller":"artifactsmanager/download_joblevel.go:78","msg":"skipping job-level artefact \"XmlReports\" — already handled by per-task loop"}
+{"level":"debug","time":"2026-11-16T23:36:40.610+0530","caller":"artifactsmanager/download_joblevel.go:78","msg":"skipping job-level artefact \"JsonReports\" — already handled by per-task loop"}
+{"level":"info","time":"2026-11-16T23:36:40.610+0530","caller":"core/lifecycle.go:862","msg":"Job artifacts zip downloaded successfully"}
+{"level":"debug","time":"2026-11-16T23:36:40.612+0530","caller":"core/lifecycle.go:783","msg":"Context canceled"}
+{"level":"info","time":"2026-11-16T23:36:40.612+0530","caller":"core/lifecycle.go:786","msg":"Stopping pipeline gracefully"}
+{"level":"info","time":"2026-11-16T23:36:40.612+0530","caller":"events/manager.go:338","msg":"context done and stopping SSE"}
+{"level":"debug","time":"2026-11-16T23:36:40.613+0530","caller":"events/manager.go:256","msg":"Stopping event manager"}
+{"level":"error","time":"2026-11-16T23:36:40.612+0530","caller":"core/lifecycle.go:789","msg":"2026-11-16T23:25:29+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2026-11-16T23:36:40.613+0530","caller":"jobmanager/manager.go:136","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef\n"}
+{"level":"debug","time":"2026-11-16T23:36:40.613+0530","caller":"events/manager.go:359","msg":"Error polling job status from API during fallback: Get \"https://api-hyperexecute.lambdatest.com/sentinel/v1.0/job/69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef\": GET https://api-hyperexecute.lambdatest.com/sentinel/v1.0/job/69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef giving up after 1 attempt(s): context canceled"}
+{"level":"debug","time":"2026-11-16T23:36:40.613+0530","caller":"events/manager.go:367","msg":"Error polling stage updates from API during fallback: Get \"https://api-hyperexecute.lambdatest.com/sentinel/v1.0/stage/69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef/job\": GET https://api-hyperexecute.lambdatest.com/sentinel/v1.0/stage/69785d2f-8d0e-43ee-a7d7-2f27a0e5d1ef/job giving up after 1 attempt(s): context canceled"}
+{"level":"debug","time":"2026-11-16T23:36:40.613+0530","caller":"core/lifecycle.go:78","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2026-11-16T23:36:40.614+0530","caller":"core/lifecycle.go:79","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2026-11-16T23:36:40.614+0530","caller":"core/lifecycle.go:82","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2026-11-16T23:36:40.614+0530","caller":"cmd/bin.go:348","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2026-11-16T23:36:40.614+0530","caller":"cmd/bin.go:387","msg":"Exiting application due to error Failed tasks found."}
